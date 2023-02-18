@@ -2,7 +2,7 @@
 // this is an auto generated file. This will be overwritten
 
 export const getNote = /* GraphQL */ `
-  query getNote($id: ID!) {
+  query GetNote($id: ID!) {
     getNote(id: $id) {
       id
       name
@@ -14,7 +14,7 @@ export const getNote = /* GraphQL */ `
 `;
 export const listNotes = /* GraphQL */ `
   query ListNotes(
-    $filter: ModelTodoFilterInput
+    $filter: ModelNoteFilterInput
     $limit: Int
     $nextToken: String
   ) {
